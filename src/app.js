@@ -8,13 +8,13 @@ const app = () => {
     return (
         
         <BrowserRouter>
-        <switch>
+        <Switch>
         <Route exact path='/' component={Home}/>
         <Route exact path='/book/theater/:id' component={Theater}/>
 
         <Route exact path='/book/:id' component={Book}/>
        
-        </switch>
+        </Switch>
      </BrowserRouter>
       
         
